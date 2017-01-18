@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+}
+.col-4{
+    width: 25%;
+}
+.col-2{
+    width: 50%;
+}
+.clearfix:after {
+	content: "";
+	display: block;
+	visibility: hidden;
+	height: 0;
+	clear: both;
+}
+.clearfix {
+	zoom: 1;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+body{
+    font-family: "微软雅黑 consolas";
+    height: 100%;
+    // overflow: hidden;
+    .animate-list{
+        li{
+            width: 100%;
+            height: 4.2rem;
+            float: left;
+            border-bottom: 1px solid #ccc;
+            padding: 10px 10px;
+            a{
+                height: 100%;
+                display: block;
+                .content{
+                    height: 100%;
+                    .left{
+                        height: 100%;
+                        float: left;
+                        margin-right: 10px;
+                        img{
+                            height: 100%;
+                        }
+                    }
+                    
+                    .right{
+                        font-size: 14px;
+                        margin-left: 10px;
+                        .title{
+                            font-size: 16px;
+                        }
+                        p{
+                            font-size: 14px;
+                            color: #ccc;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .header{
+        height: 2.7rem;
+        background-color: #F7F7F7;
+        border-bottom: 2px solid #E6E6E6;
+        .back{
+            line-height: 2.7rem;
+            margin-left: 0.6rem;
+            color: #F43727;
+            font-weight: 700;
+        }
+        .icon{
+            height: 100%;
+            width: 2.7rem;
+            background-repeat: no-repeat;
+            background-size: 50%;
+            background-position: 50% 50%;
+        }
+        .right{
+            float: right;
+            background-image: url('../images/search.png');
+        }
+        .left{
+            float: left;
+            background-image: url('../images/nav.png');
+        }
+        .title{
+            margin: 0 2.7rem;
+            height: 100%;
+            line-height: 2.7rem;
+            text-align: center;
+            font-size: 1rem;
+        }
+    }
+    .shuffling{
+        img{
+            width: 100%;
+        }
+    }
+    .nav{
+        ul{
+            li{
+                float: left;
+                text-align: center;
+                line-height: 2.75rem;
+                a{
+                    display: block;
+                    width: 100%;
+                    height: 100%;
+                    text-decoration: none;
+                    color: black;
+                    font-size: 0.8rem;
+                }
+                a:hover{
+                    color: red;
+                    border-bottom: 0.1rem solid red;
+                }
+            }
+        }
+    }
+    .products{
+        float: left;
+        padding: 0px 0.6rem;
+        width: 100%;
+        box-sizing: border-box;
+        .product-list{
+        height: auto;
+        float: left;
+        width: 100%;
+        background-color: #F7F7F7;
+        .product{
+            box-sizing: border-box;
+            float: left;
+            padding: 1rem 0.5rem 0;
+            border: 0.05rem solid #EFEFEF;
+            a{
+                font-size: 0.8rem;
+                display: block;
+                width: 100%;
+                height: 100%;
+                img{
+                    width: 100%;
+                }
+                .product-title{
+                    display: block;
+                    width: 100%;
+                    line-height: 2.2rem;
+                    margin-top: 0.8rem;
+                    text-align: center;
+                    color: black;
+                }
+            }
+        }
+        }
+    }
+    .mask{
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        position: fixed;
+        top: 0rem;
+        left: 0rem;
+        z-index: 999;
+        .meun{
+            width: 70%;
+            height: 100%;
+            background-color: #fff;
+            .logo{
+                padding: 0.5rem;
+                img{
+                    width: 100%;
+                }
+            }
+            ul{
+                border-bottom: 0.05rem solid #EEEEEF;
+                li{
+                    height: 1.7rem;
+                    width: 100%;
+                    box-sizing: border-box;
+                    line-height: 1.7rem;
+                    padding-left: 0.5rem;
+                    padding-right: 0.8rem;
+                    border: 0.05rem solid #EEEEEF;
+                    border-bottom: none;
+                    a{
+                        color: black;
+                        font-weight: 700;
+                        font-size: 0.7rem;
+                    }
+                    .arrow{
+                        color: #ccc;
+                        float: right;
+                    }
+                }
+            }
+        }
+
+    }
+
+}

@@ -1,0 +1,194 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style: none;
+}
+.col-4 {
+  width: 25%;
+}
+.col-2 {
+  width: 50%;
+}
+.clearfix:after {
+  content: "";
+  display: block;
+  visibility: hidden;
+  height: 0;
+  clear: both;
+}
+.clearfix {
+  zoom: 1;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+body {
+  font-family: "微软雅黑 consolas";
+  height: 100%;
+}
+body .animate-list li {
+  width: 100%;
+  height: 4.2rem;
+  float: left;
+  border-bottom: 1px solid #ccc;
+  padding: 10px 10px;
+}
+body .animate-list li a {
+  height: 100%;
+  display: block;
+}
+body .animate-list li a .content {
+  height: 100%;
+}
+body .animate-list li a .content .left {
+  height: 100%;
+  float: left;
+  margin-right: 10px;
+}
+body .animate-list li a .content .left img {
+  height: 100%;
+}
+body .animate-list li a .content .right {
+  font-size: 14px;
+  margin-left: 10px;
+}
+body .animate-list li a .content .right .title {
+  font-size: 16px;
+}
+body .animate-list li a .content .right p {
+  font-size: 14px;
+  color: #ccc;
+}
+body .header {
+  height: 2.7rem;
+  background-color: #F7F7F7;
+  border-bottom: 2px solid #E6E6E6;
+}
+body .header .back {
+  line-height: 2.7rem;
+  margin-left: 0.6rem;
+  color: #F43727;
+  font-weight: 700;
+}
+body .header .icon {
+  height: 100%;
+  width: 2.7rem;
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-position: 50% 50%;
+}
+body .header .right {
+  float: right;
+  background-image: url('../images/search.png');
+}
+body .header .left {
+  float: left;
+  background-image: url('../images/nav.png');
+}
+body .header .title {
+  margin: 0 2.7rem;
+  height: 100%;
+  line-height: 2.7rem;
+  text-align: center;
+  font-size: 1rem;
+}
+body .shuffling img {
+  width: 100%;
+}
+body .nav ul li {
+  float: left;
+  text-align: center;
+  line-height: 2.75rem;
+}
+body .nav ul li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  color: black;
+  font-size: 0.8rem;
+}
+body .nav ul li a:hover {
+  color: red;
+  border-bottom: 0.1rem solid red;
+}
+body .products {
+  float: left;
+  padding: 0px 0.6rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+body .products .product-list {
+  height: auto;
+  float: left;
+  width: 100%;
+  background-color: #F7F7F7;
+}
+body .products .product-list .product {
+  box-sizing: border-box;
+  float: left;
+  padding: 1rem 0.5rem 0;
+  border: 0.05rem solid #EFEFEF;
+}
+body .products .product-list .product a {
+  font-size: 0.8rem;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+body .products .product-list .product a img {
+  width: 100%;
+}
+body .products .product-list .product a .product-title {
+  display: block;
+  width: 100%;
+  line-height: 2.2rem;
+  margin-top: 0.8rem;
+  text-align: center;
+  color: black;
+}
+body .mask {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0rem;
+  left: 0rem;
+  z-index: 999;
+}
+body .mask .meun {
+  width: 70%;
+  height: 100%;
+  background-color: #fff;
+}
+body .mask .meun .logo {
+  padding: 0.5rem;
+}
+body .mask .meun .logo img {
+  width: 100%;
+}
+body .mask .meun ul {
+  border-bottom: 0.05rem solid #EEEEEF;
+}
+body .mask .meun ul li {
+  height: 1.7rem;
+  width: 100%;
+  box-sizing: border-box;
+  line-height: 1.7rem;
+  padding-left: 0.5rem;
+  padding-right: 0.8rem;
+  border: 0.05rem solid #EEEEEF;
+  border-bottom: none;
+}
+body .mask .meun ul li a {
+  color: black;
+  font-weight: 700;
+  font-size: 0.7rem;
+}
+body .mask .meun ul li .arrow {
+  color: #ccc;
+  float: right;
+}
